@@ -86,6 +86,7 @@
         top: 20px;
         display: flex;
         justify-content: space-between;
+        gap: 10px;
     }
 
     .logged-in{

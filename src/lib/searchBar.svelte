@@ -35,11 +35,14 @@
             window.location.href = 'http://localhost:5173/#/' + "search/" + query
         }
     }
+    function handleRedirect(){
+        window.location.href='http://localhost:5173'
+    }
 </script>
     
 <div class="searchBar">
     <div class="logo">
-        <img src="./LOGO-removebg-preview.png" alt="custom camp logo"/>
+        <img src="./LOGO-removebg-preview.png" alt="custom camp logo" on:click={handleRedirect}/>
     </div>
     {#if !fireauth}
         <div>

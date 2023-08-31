@@ -4,7 +4,7 @@
 
 <div class="camp-widget">
     <h3>{camp.name}</h3>
-    <h3>{camp.description}</h3>
+    <p>{camp.description}</p>
 </div>
 
 <style>
@@ -14,6 +14,9 @@
         background-color: white;
         border-radius: 5px;
         cursor: pointer;
+        color: black;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     h3 {

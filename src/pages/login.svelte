@@ -17,3 +17,8 @@
 </script>
     <div id="firebaseui-auth-container">
 </div>
+<style>
+    #firebaseui-auth-container{
+        padding-top: 175px;
+    }
+</style>
