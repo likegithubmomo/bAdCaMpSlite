@@ -32,7 +32,7 @@
             console.log("alright, i logged you out NOW go play minecraft")
             isLoggedIn = false
         })
-        window.location.replace("http://localhost:5173/#/login")
+        window.location.replace("http://localhost:5173")
     }
 </script>
 
