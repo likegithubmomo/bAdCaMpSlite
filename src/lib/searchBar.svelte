@@ -94,7 +94,7 @@
         color: white;
     }
     .searchlogo{
-            height: 50px;
+            height: 55px;
             padding-left: 10px;
             padding-top: 3px
     }
