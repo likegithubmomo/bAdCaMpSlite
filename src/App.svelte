@@ -7,6 +7,7 @@
   import SearchResults from "./lib/searchResults.svelte";
 
   import Router from "svelte-spa-router";
+  import DynamicPage from "./pages/DynamicPage.svelte";
   const app = initializeApp(firebaseConfig);
 </script>
 
@@ -15,7 +16,8 @@
   <Router routes={{
     "/": Home,
     "/search/:query":SearchResults,
-    "/login":Login
+    "/login":Login,
+    "/camp/:id": DynamicPage
   }}/>
 </main>
 

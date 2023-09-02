@@ -27,6 +27,7 @@ html {
   background: linear-gradient(to bottom right, #30e8bf, #ff8235);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 body {
   margin: 0;
@@ -72,6 +73,7 @@ button:focus-visible {
 
 body {
   overflow-y: auto;
+  overflow-x: hidden;
   height: 100%;
 }
 @media (prefers-color-scheme: light) {

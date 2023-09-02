@@ -1,9 +1,16 @@
 <script>
     export let camp;
+    import {campmarket} from "../stores/currentcamp.js"
+    function handleClicky(){
+        campmarket.set(camp)
+        localStorage.setItem
+        window.location.href = `http://localhost:5173/#/camp/${camp.id}`
+    }
 </script>
 
-<div class="camp-widget">
+<div class="camp-widget" on:click={handleClicky} on:keydown={handleClicky}>
     <h3>{camp.name}</h3>
+    <p>-------------------------------------------------</p>
     <p>{camp.description}</p>
 </div>
 
